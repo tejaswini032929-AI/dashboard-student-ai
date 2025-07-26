@@ -12,7 +12,7 @@ api_key = st.sidebar.text_input("API Key", type="password")
 # Load dataset
 @st.cache_data
 def load_data():
-    return pd.read_csv("StudentsPerformance.csv")
+    return pd.read_csv("students_performance_200.csv")
 
 df = load_data()
 
