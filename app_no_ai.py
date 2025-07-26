@@ -12,7 +12,7 @@ st.markdown("**Note:** AI features are currently disabled due to OpenAI API quot
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("StudentsPerformance.csv")
+    df = pd.read_csv("students_performance_200.csv")
     return df
 
 df = load_data()
